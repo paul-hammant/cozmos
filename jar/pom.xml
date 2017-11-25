@@ -42,8 +42,8 @@
     </dependencies>
 	<repositories>
 		<repository>
-			<id>seasar</id>
-			<url>http://maven.seasar.org/maven2</url>
+			<id>atlassian-3rdparty</id>
+			<url>https://maven.atlassian.com/3rdparty/</url>
 		</repository>
 	</repositories>
 </project>

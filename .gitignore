@@ -1,3 +1,5 @@
-cozmos-parent.iml
-cozmos-parent.ipr
-cozmos-parent.iws
+*.iml
+*.ipr
+*.iws
+.idea/
+target/
