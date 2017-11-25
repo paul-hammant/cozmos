@@ -31,7 +31,7 @@
         <dependency>
             <groupId>org.freemarker</groupId>
             <artifactId>freemarker</artifactId>
-            <version>2.3.16</version>
+            <version>2.3.27-incubating</version>
         </dependency>
         <dependency>
             <groupId>opensymphony</groupId>
@@ -57,22 +57,4 @@
 		</dependency>
 		</dependencies>
 	</dependencyManagement>
-	<profiles>
-		<profile>
-			<!--Use Codehaus Repositories-->
-			<id>codehaus</id>
-			<repositories>
-				<repository>
-					<id>Codehaus</id>
-					<releases>
-						<enabled>true</enabled>
-					</releases>
-					<snapshots>
-						<enabled>false</enabled>
-					</snapshots>
-					<url>http://repository.codehaus.org/</url>
-				</repository>
-			</repositories>
-		</profile>
-	</profiles>
 </project>
